@@ -6,3 +6,6 @@ pesquisas, filtros e gerar calculós matemáticos estatisticos.
 
 API:
 https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo
+
+LINK PARA TESTAR APLICAÇÃO:
+https://flaviobarcelos.github.io/SearchUserByAPIJson/
