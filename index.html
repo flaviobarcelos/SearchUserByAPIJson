@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO MODULO 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+<body>
+  <nav class="teal lighten-1">
+    <div class="nav-wrapper">
+      <span id="title-nav">Pesquisa de usuários</span>
+    </div>
+  </nav>
+  <div id="header">
+    <div class="loading">
+      <div class="preloader-wrapper small active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      Carregando Lista
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="Informe o nome a ser pesquisado" id="term" name="term" type="text" class="validate">
+      </div>
+      <div class="input-field col s6">
+        <a class="btn disabled" id="search">Buscar</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="filtered">
+      
+  </div>
+
+  <div id="summary">
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

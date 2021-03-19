@@ -1,0 +1,43 @@
+body {
+  padding: 10px;
+}
+
+#header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#title-nav {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+nav {
+  height: 75px !important;
+}
+
+h1 {
+  /* margin: 0 auto; */
+  display: flex;
+}
+
+.loading {
+  width: 50%;
+  margin: 0 auto;
+  clear: both;
+  display: none;
+}
+
+#filtered,
+#summary {
+  width: 40%;
+  margin: 20px;
+  float: left;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 20px 20px 20px;
+}
+
+img {
+  border-radius: 50px;
+}
